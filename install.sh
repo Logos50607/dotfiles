@@ -23,3 +23,6 @@ link "$DOTFILES/tmux/.tmux.conf"   "$HOME/.tmux.conf"
 link "$DOTFILES/git/.gitconfig"    "$HOME/.gitconfig"
 link "$DOTFILES/bash/.bashrc"      "$HOME/.bashrc"
 link "$DOTFILES/nvim"              "$HOME/.config/nvim"
+
+echo ""
+sh "$DOTFILES/test_install.sh"
